@@ -1,0 +1,68 @@
+{
+    "ai_services": {
+        "openai": {
+            "enabled": false,
+            "api_key": "",
+            "model": "gpt-4",
+            "description": "OpenAI GPT-4, 最强大的通用AI模型"
+        },
+        "doubao": {
+            "enabled": false,
+            "api_key": "",
+            "model": "doubao-pro-32k",
+            "description": "字节跳动豆包, 支持长上下文和多模态"
+        },
+        "minimax": {
+            "enabled": false,
+            "api_key": "",
+            "model": "abab6.5s-chat",
+            "description": "MiniMax ABAB, 长文本处理能力强"
+        },
+        "qwen": {
+            "enabled": false,
+            "api_key": "",
+            "model": "qwen-turbo",
+            "description": "阿里巴巴通义千问, 多语言支持好"
+        }
+    },
+    "automation": {
+        "screenshot_path": "/tmp/jarvis_screenshots",
+        "download_path": "~/Downloads",
+        "paper_storage": "~/Desktop/Papers",
+        "default_organize_rule": "type",
+        "auto_rename_papers": true
+    },
+    "general": {
+        "language": "zh",
+        "theme": "dark",
+        "startup": true,
+        "startup_method": "launchd",
+        "hotkey": "<ctrl>+<cmd>+j",
+        "show_menu_bar_icon": true
+    },
+    "integrations": {
+        "spotlight": true,
+        "alfred": false,
+        "quicksilver": false,
+        "siri_shortcut": true
+    },
+    "logging": {
+        "level": "INFO",
+        "file": "/tmp/jarvis_agent.log",
+        "max_size_mb": 10,
+        "backup_count": 5
+    },
+    "web_search": {
+        "default_engine": "google",
+        "max_results": 10,
+        "timeout_seconds": 30
+    },
+    "file_types": {
+        "documents": [".pdf", ".doc", ".docx", ".txt", ".md", ".ppt", ".pptx"],
+        "images": [".jpg", ".jpeg", ".png", ".gif", ".webp", ".svg"],
+        "videos": [".mp4", ".mov", ".avi", ".mkv", ".flv"],
+        "audio": [".mp3", ".wav", ".aac", ".flac", ".m4a"],
+        "code": [".py", ".js", ".ts", ".html", ".css", ".java", ".cpp", ".go"],
+        "archives": [".zip", ".rar", ".7z", ".tar", ".gz"]
+    }
+}

@@ -1,0 +1,32 @@
+# Jarvis AI Agent - Python依赖列表
+# 版本: 1.0.0
+
+# 核心依赖
+aiohttp>=3.8.0
+asyncio>=3.4.3
+
+# 自动化控制
+pyautogui>=0.9.54
+pyscreeze>=0.1.29
+Pillow>=9.5.0
+pynput>=1.7.6
+
+# 网页解析
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+
+# OCR识别（可选）
+pytesseract>=0.3.10
+
+# 数据处理
+python-dateutil>=2.8.2
+
+# 苹果脚本支持（macOS内置）
+# pyobjc>=9.0 (如需菜单栏应用可安装)
+
+# 语音识别（可选）
+SpeechRecognition>=3.10.0
+
+# 开发测试
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
